@@ -9,6 +9,10 @@ BlogCalendar adds html link to the date-based url.
 
 Example:
 ```python
+    
+    from simpleblog.models import Post
+    from simpleblog.helpers.blog_calendar import BlogCalendar
+    
     # args
     model = Post                      # django model with DateField or DateTimeField
     date_field = 'created'            # DateField or DateTimeField name in model
