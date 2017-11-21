@@ -37,3 +37,4 @@ Example:
     # html calendar for current year
     print (blog_calendar.formatyear(current_date.year))
 ```
+Tested with Django 1.11
