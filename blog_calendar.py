@@ -19,7 +19,7 @@ Example:
     day_abbr = ['Mo','Tu','We','Th','Fr','Sa','Su'] # days of week abbreviations
                                                     # default is calendar.day_abbr
 
-    b = BlogCalendar(model,
+    blog_calendar = BlogCalendar(model,
                     date_field,
                     url_name,
                     additional_filters=additional_filters,
@@ -27,10 +27,10 @@ Example:
 
     # html calendar for current month
     current_date = date.today()
-    print (b.formatmonth(current_date.year, current_date.month))
+    print (blog_calendar.formatmonth(current_date.year, current_date.month))
 
     # html calendar for current year
-    print (b.formatyear(current_date.year))
+    print (blog_calendar.formatyear(current_date.year))
 
 """
 
