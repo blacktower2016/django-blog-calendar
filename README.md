@@ -22,11 +22,13 @@ Example:
     day_abbr = ['Mo','Tu','We','Th','Fr','Sa','Su'] # days of week abbreviations
                                                     # default is calendar.day_abbr
 
-    blog_calendar = BlogCalendar(model,
+    blog_calendar = BlogCalendar(
+                    model,
                     date_field,
                     url_name,
                     additional_filters=additional_filters,
-                    day_abbreviations=day_abbr)
+                    day_abbreviations=day_abbr
+                )
 
     # html calendar for current month
     current_date = date.today()
