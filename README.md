@@ -24,7 +24,7 @@ Example:
                                              # default is None
 
     day_abbr = ['Mo','Tu','We','Th','Fr','Sa','Su'] # days of week abbreviations
-                                                    # default is calendar.day_abbr from python calendar module
+                                                    # default is day_abbr from python calendar module
 
     blog_calendar = BlogCalendar(
                     model,
