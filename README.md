@@ -15,7 +15,7 @@ Example:
     
     # args
     model = Post                      # django model with DateField or DateTimeField
-    date_field = 'created'            # DateField or DateTimeField name in model
+    date_field = 'created'            # DateField or DateTimeField name in the model
     url_name = 'simpleblog:calendar'  # url name for links
                                       # url should have <year> <month> and <day> parameters
 
@@ -24,7 +24,7 @@ Example:
                                              # default is None
 
     day_abbr = ['Mo','Tu','We','Th','Fr','Sa','Su'] # days of week abbreviations
-                                                    # default is calendar.day_abbr
+                                                    # default is calendar.day_abbr from python calendar module
 
     blog_calendar = BlogCalendar(
                     model,
